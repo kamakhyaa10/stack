@@ -94,3 +94,28 @@ void pop()
 		free(temp);
 	}
 }
+// Driver Code
+int main()
+{
+	
+	// Push the elements of stack
+	push(11);
+	push(22);
+	push(33);
+	push(44);
+
+
+	// Print top element of stack
+	cout << "\nTop element is "
+		<< peek() << endl;
+
+	// Delete top elements of stack
+	pop();
+	pop();
+
+	// Print top element of stack
+	cout << "\nTop element is "
+		<< peek() << endl;
+		
+	return 0;
+}
